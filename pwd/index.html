@@ -1,0 +1,70 @@
+﻿<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Password Generator</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<script src="jquery-1.12.0.min.js"></script>
+		<script src="pwd.js"></script>
+		<link rel="stylesheet" href="bulma/css/bulma.min.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		
+		
+		
+		
+		
+		
+		
+		
+		<section class="hero is-success is-fullheight">
+			<div class="hero-header">
+				<div class="container">
+					<!-- Main container -->
+					<nav class="navbar">
+						<!-- Left side -->
+						<div class="navbar-left">
+							<div class="navbar-item is-centered">
+								<p class="subtitle is-5">
+									<strong>PASSWORD</strong> Generator
+								</p>
+							</div>
+							<p class="navbar-item"><a href="http://lamouche.fr" title="Benoit Lamouche" class="button is-success">About</a></p>
+						</div>
+
+						<!-- Right side -->
+						<div class="navbar-right">
+							<div class="navbar-item is-centered">
+								<p class="control is-grouped">
+									<label class="checkbox"> Special chars <input class="input" type="checkbox" id="opt_caracteres" /></label>
+									<label class="checkbox"> Digits <input type="checkbox" id="opt_chiffres" /></label>
+									<input class="input" type="number" min="5" max="15" id="opt_nb" value="6" />
+								</p>
+							</div>
+						</div>
+					</nav>
+				</div>
+			</div>
+			<div class="hero-content">
+				<div class="container">
+					<h1 class="title">
+						<span id="pwd"></span>
+					</h1>
+				</div>
+			</div>
+		</section>
+		
+		
+		
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		  ga('create', 'UA-72405421-1', 'auto');
+		  ga('send', 'pageview');
+		</script>
+			
+	</body>
+</html>

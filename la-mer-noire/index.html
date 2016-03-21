@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<head>
+	<title>Soundbox - La Mer Noire</title>
+	<script type="text/javascript">
+	</script>
+	<!-- CSS -->
+	<style type="text/css">
+		body{
+			margin:0;
+			padding:0;
+			font-family:Arial,Tahoma,Verdana;
+		}
+		.header{
+			background-image:url('bg.jpg');
+			background-size:cover;
+			background-position:center;
+			padding:100px 0;
+		}
+		h1{
+			margin:0;
+			padding:0;
+			color:#fff;
+			text-align:center;
+		}
+		button{
+			display:block;
+			width:30%;
+			margin:30px auto;
+			background-color:#fff;
+			border:#000;
+			border-radius:4px;
+			font-size:24px;
+			padding:10px;
+			border:2px solid #000;
+		}
+		button:hover, button:active{
+			background-color:#999;
+		}
+		
+	</style>
+ 
+</head>
+ 
+<body>
+ 
+	<audio id="sound1" src="1.mp3" preload="auto"></audio>
+	<audio id="sound2" src="2.mp3" preload="auto"></audio>
+	<audio id="sound3" src="3.mp3" preload="auto"></audio>
+	<audio id="sound4" src="4.mp3" preload="auto"></audio>
+	<audio id="sound5" src="5.mp3" preload="auto"></audio>
+	
+	<div class="header">
+		<h1>C'est la mer noire</h1>
+	</div>
+ 
+	<button onclick="document.getElementById('sound1').play()">La mer du nord ?</button>
+ 	<button onclick="document.getElementById('sound2').play()">C'est la mer... noire</button>
+	<button onclick="document.getElementById('sound3').play()">C'est la mer noire ?</button>
+	<button onclick="document.getElementById('sound4').play()">C'est la mer noire ?</button>
+	<button onclick="document.getElementById('sound5').play()">C'est la mer noire !</button>
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-72405421-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+</body>
+ 
+</html>
